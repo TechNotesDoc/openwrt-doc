@@ -16,14 +16,14 @@
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: OpenWrt
    :glob:
    
    ./Doc/00.OpenWrt/*
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: IPQ6018专题
    :glob:
 
