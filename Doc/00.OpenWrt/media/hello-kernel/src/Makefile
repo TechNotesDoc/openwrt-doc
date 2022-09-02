@@ -1,0 +1,1 @@
+obj-${CONFIG_HELLO_KERNEL}	+= hello-kernel.o

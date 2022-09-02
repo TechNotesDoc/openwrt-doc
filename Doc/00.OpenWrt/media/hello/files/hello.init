@@ -1,0 +1,22 @@
+#!/bin/sh /etc/rc.common
+# hello script
+
+START=15
+STOP=85
+
+start() {
+    echo "start HelloRoute!"
+    hello
+}
+
+stop() {
+    echo "stop HelloRoute!"
+    #hello -t
+}
+
+EXTRA_COMMANDS="custom"
+EXTRA_HELP="        custom Help for the custom command"
+
+custom() {
+    echo "custom command"
+}

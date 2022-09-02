@@ -1,0 +1,4 @@
+config HELLO_KERNEL
+    tristate "Test kernel driver"
+    help
+        This is an Kernel Driver Test
